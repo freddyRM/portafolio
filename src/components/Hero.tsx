@@ -18,7 +18,7 @@ export default function Hero() {
       <div className="pointer-events-none absolute -top-40 left-1/2 h-[500px] w-[800px] -translate-x-1/2 rounded-full bg-emerald-500/10 blur-3xl" />
 
       <div className="relative mx-auto grid min-h-screen max-w-6xl items-center gap-12 px-6 pt-24 pb-16 lg:grid-cols-[1.2fr_1fr]">
-        <div>
+        <div className="order-2 lg:order-1">
           <p className="mb-4 inline-flex items-center gap-2 rounded-full border border-emerald-400/30 bg-emerald-400/10 px-3 py-1 font-mono text-xs text-emerald-300">
             <span className="relative flex h-2 w-2">
               <span className="absolute inline-flex h-full w-full animate-ping rounded-full bg-emerald-400 opacity-75" />
@@ -64,7 +64,19 @@ export default function Hero() {
           </div>
         </div>
 
-        <div className="hidden rounded-xl border border-slate-800 bg-panel/80 shadow-2xl shadow-black/40 backdrop-blur lg:block">
+        <div className="order-1 flex flex-col items-center lg:order-2">
+          <div className="relative z-10 lg:-mb-14">
+            <div className="absolute inset-3 rounded-full bg-emerald-400/25 blur-2xl" />
+            <img
+              src="/freddy.jpeg"
+              alt="Freddy Rodríguez"
+              width={682}
+              height={1024}
+              fetchPriority="high"
+              className="relative h-40 w-40 rounded-full object-cover object-[center_18%] ring-2 ring-emerald-300/80 ring-offset-4 ring-offset-ink sm:h-48 sm:w-48"
+            />
+          </div>
+          <div className="hidden w-full rounded-xl border border-slate-800 bg-panel/80 pt-16 shadow-2xl shadow-black/40 backdrop-blur lg:block">
           <div className="flex items-center gap-2 border-b border-slate-800 px-4 py-3">
             <span className="h-3 w-3 rounded-full bg-red-400/80" />
             <span className="h-3 w-3 rounded-full bg-yellow-400/80" />
@@ -80,6 +92,7 @@ export default function Hero() {
               </div>
             ))}
           </pre>
+          </div>
         </div>
       </div>
     </section>
