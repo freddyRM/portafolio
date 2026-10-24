@@ -1,7 +1,7 @@
 export const profile = {
   name: 'Freddy José Rodríguez Mago',
   shortName: 'Freddy Rodríguez',
-  role: 'Desarrollador Full Stack & Backend',
+  role: 'Desarrollador Full Stack',
   location: 'Carabobo, Venezuela',
   email: 'Freddy.facyt@gmail.com',
   linkedin: 'https://www.linkedin.com/in/freddy-j-rodriguez',
@@ -11,7 +11,7 @@ export const profile = {
   tagline:
     'Construyo APIs, integraciones enterprise y automatizaciones que simplifican procesos complejos.',
   summary: [
-    'Desarrollador backend con más de 6 años de experiencia en la creación de aplicaciones para sistemas de formación, generación de reportes y scraping. Tengo un fuerte dominio de Python, SQL y tecnologías de desarrollo web.',
+    'Desarrollador full stack con más de 6 años de experiencia en la creación de aplicaciones para sistemas de formación, generación de reportes y scraping. Tengo un fuerte dominio de Python, SQL y tecnologías de desarrollo web.',
     'Mi enfoque está en la creación de soluciones eficientes y escalables. Me apasiona la automatización y el análisis de datos, y siempre busco formas de optimizar la infraestructura existente.',
     'Soy una persona responsable y dinámica, en constante aprendizaje, que mantiene una comunicación abierta con el equipo y los clientes.',
   ],
@@ -205,6 +205,7 @@ export const projects: Project[] = [
     description: 'Configurador 3D interactivo para personalizar una consola PS5 en el navegador.',
     tags: ['TypeScript', '3D', 'Frontend'],
     repo: 'https://github.com/freddyRM/ps5-customizer-3d',
+    demo: 'https://freddyrm.github.io/ps5-customizer-3d/',
     featured: true,
   },
   {
@@ -226,12 +227,14 @@ export const projects: Project[] = [
     description: 'Extracción automatizada de datos desde documentos PDF.',
     tags: ['Scraping', 'PDF', 'JavaScript'],
     repo: 'https://github.com/freddyRM/ScraperPDF',
+    demo: 'https://freddyrm.github.io/ScraperPDF/',
   },
   {
     name: 'OCR',
     description: 'Reconocimiento óptico de caracteres para extraer texto de imágenes.',
     tags: ['OCR', 'JavaScript'],
     repo: 'https://github.com/freddyRM/OCR',
+    demo: 'https://freddyrm.github.io/OCR/',
   },
   {
     name: 'TEG Febeca — Microformación',
