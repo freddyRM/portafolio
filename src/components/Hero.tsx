@@ -7,7 +7,6 @@ const codeLines = [
   { k: '  stack', v: ": ['TypeScript', 'Python', 'PHP', 'SQL']," },
   { k: '  focus', v: ": ['APIs', 'SAP B1', 'Automatización']," },
   { k: '  tools', v: ": ['NestJS', 'Laravel', 'FastAPI', 'n8n']," },
-  { k: '  openToWork', v: ': true,' },
   { k: '}', v: '' },
 ]
 
